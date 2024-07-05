@@ -4,6 +4,7 @@ isort
 mkdocs
 mkdocs-material
 thefuzz
+pandas
 pip
 python-dotenv
 -e .

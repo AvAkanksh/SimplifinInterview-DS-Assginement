@@ -1,12 +1,49 @@
 # SimplifinInterview-DS-Assignment
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
-
 This project contains the code to the assignment for DS interview at Simplifin
 
-## Project Organization
+## My Project Folder Organization
+
+``` shell
+
+├── data
+│   ├── external
+│   ├── interim
+│   ├── processed
+│   │   ├── oms_data.csv
+│   │   └── paytm_data.csv
+│   └── raw
+│       └── Data Assignment File.xlsx
+├── docs
+│   ├── docs
+│   │   ├── getting-started.md
+│   │   └── index.md
+│   ├── mkdocs.yml
+│   └── README.md
+├── Makefile
+├── models
+├── notebooks
+│   ├── dataAnalysis.ipynb
+│   └── dataExploration.ipynb
+├── pyproject.toml
+├── README.md
+├── reconciliation
+│   ├── __init__.py
+│   └── reconciliation.py
+├── references
+├── reports
+│   ├── figures
+│   │   └── difference_in_timestamps_oms_vs_paytm.png
+│   ├── final_processed_oms_data.csv
+│   ├── final_processed_paytm_data.csv
+│   ├── README.md
+│   └── reconciliation_report.csv
+├── requirements.txt
+└── setup.cfg
+
+```
+
+## General Reference of Project Organization
 
 ```
 ├── LICENSE            <- Open-source license if one is chosen
@@ -58,5 +95,20 @@ This project contains the code to the assignment for DS interview at Simplifin
         └── visualize.py
 ```
 
---------
+## How to run the code/project
 
+
+- **Step 1** : Download the project and navigate into the project directory
+- **Step 2** : Install the required dependencies
+
+``` shell
+pip install -r requirements.txt
+```
+
+- **Step 3** : Run the below command to run the reconciliation script
+
+``` shell
+python reconcilation/reconciliation.py
+```
+
+> **Note : Checkout the reports/ folder for the Final Analysis of the Reconciliation.**
