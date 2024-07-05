@@ -2,3 +2,5 @@ site_name: SimplifinInterview-DS-Assignment
 # 
 site_author: AV Akanksh
 # 
+theme:
+  name: material

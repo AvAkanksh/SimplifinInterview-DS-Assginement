@@ -2,6 +2,8 @@ black
 flake8
 isort
 mkdocs
+mkdocs-material
+thefuzz
 pip
 python-dotenv
 -e .
