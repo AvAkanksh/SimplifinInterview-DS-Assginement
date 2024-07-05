@@ -2,6 +2,8 @@
 
 This project contains the code to the assignment for DS interview at Simplifin
 
+> **Note : Checkout the [reports/](https://github.com/AvAkanksh/SimplifinInterview-DS-Assginment/tree/main/reports) folder for the Final Analysis of the Reconciliation.**
+
 ## My Project Folder Organization
 
 ``` shell
@@ -111,4 +113,4 @@ pip install -r requirements.txt
 python reconcilation/reconciliation.py
 ```
 
-> **Note : Checkout the reports/ folder for the Final Analysis of the Reconciliation.**
+> **Note : Checkout the [reports/](https://github.com/AvAkanksh/SimplifinInterview-DS-Assginment/tree/main/reports) folder for the Final Analysis of the Reconciliation.**
